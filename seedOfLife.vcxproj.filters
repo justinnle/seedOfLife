@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Flower.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Petal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGifEncoder\src\ofxGifEncoder.cpp">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{fe7e4904-9378-43f4-ab34-b90b63a4b884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGifEncoder">
+      <UniqueIdentifier>{6d3a6368-dac2-4d35-9cb7-fe367b716557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGifEncoder\src">
+      <UniqueIdentifier>{6f21717b-1690-4007-8d7d-fc22cc48a106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Flower.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Petal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifDitherTypes.h">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifEncoder.h">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGifEncoder\src\ofxGifFrame.h">
+      <Filter>addons\ofxGifEncoder\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
